@@ -136596,6 +136596,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _plugins_bulk_action__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../plugins/bulk-action */ "./resources/assets/js/plugins/bulk-action.js");
 /* harmony import */ var element_ui__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! element-ui */ "./node_modules/element-ui/lib/element-ui.common.js");
 /* harmony import */ var element_ui__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(element_ui__WEBPACK_IMPORTED_MODULE_4__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -136607,15 +136609,12 @@ __webpack_require__(/*! ./../../bootstrap */ "./resources/assets/js/bootstrap.js
 
 
 
- //import 'element-ui/lib/theme-default/index.css';
 
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(element_ui__WEBPACK_IMPORTED_MODULE_4___default.a);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(element_ui__WEBPACK_IMPORTED_MODULE_4__["ColorPicker"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   mixins: [_mixins_global__WEBPACK_IMPORTED_MODULE_1__["default"]],
-  components: {
-    ColorPicker: element_ui__WEBPACK_IMPORTED_MODULE_4___default.a
-  },
+  components: _defineProperty({}, element_ui__WEBPACK_IMPORTED_MODULE_4__["ColorPicker"].name, element_ui__WEBPACK_IMPORTED_MODULE_4__["ColorPicker"]),
   mounted: function mounted() {
     this.color = this.form.color;
   },
@@ -136657,7 +136656,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp7.3\htdocs\Akaunting\Dev\Core\github_akauntin2\resources\assets\js\views\settings\categories.js */"./resources/assets/js/views/settings/categories.js");
+module.exports = __webpack_require__(/*! C:\xampp7.3\htdocs\Akaunting\Dev\Modul\GitHub_Akaunting_3\resources\assets\js\views\settings\categories.js */"./resources/assets/js/views/settings/categories.js");
 
 
 /***/ })
