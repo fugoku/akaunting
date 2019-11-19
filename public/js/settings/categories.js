@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 28);
+/******/ 	return __webpack_require__(__webpack_require__.s = 29);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -136649,14 +136649,14 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 
 /***/ }),
 
-/***/ 28:
+/***/ 29:
 /*!****************************************************************!*\
   !*** multi ./resources/assets/js/views/settings/categories.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp7.3\htdocs\Akaunting\Dev\Modul\GitHub_Akaunting_3\resources\assets\js\views\settings\categories.js */"./resources/assets/js/views/settings/categories.js");
+module.exports = __webpack_require__(/*! C:\xampp7.3\htdocs\GitHub\AkauntingGit1\resources\assets\js\views\settings\categories.js */"./resources/assets/js/views/settings/categories.js");
 
 
 /***/ })
