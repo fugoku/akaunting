@@ -1,8 +1,8 @@
-<div class="table-responsive overflow-auto mt-5">
-    <table class="table align-items-center rp-border-collapse">
+<div class="table-responsive overflow-auto my-4">
+    <table class="table table-hover align-items-center rp-border-collapse">
         <tfoot class="border-top-style">
             <tr class="rp-border-top-1">
-                <th class="report-column">{{ trans('reports.net_profit') }}</th>
+                <th class="report-column text-uppercase">{{ trans('reports.net_profit') }}</th>
                 @foreach($class->net_profit as $profit)
                     <th class="report-column text-right px-0">@money($profit, setting('default.currency'), true)</th>
                 @endforeach
