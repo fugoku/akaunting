@@ -15,6 +15,7 @@
         :name="'{{ $name }}'"
         :options="{{ json_encode($values) }}"
         :value="'{{ old($name, $selected) }}'"
+
         :group="true"
 
         @if (!empty($attributes['v-model']))
@@ -27,6 +28,14 @@
 
         @if (!empty($attributes['change']))
         @change="{{ $attributes['change'] }}($event)"
+        @endif
+
+        @if (isset($attributes['readonly']))
+        :readonly="'{{ $attributes['readonly'] }}'"
+        @endif
+
+        @if (isset($attributes['disabled']))
+        :disabled="'{{ $attributes['disabled'] }}'"
         @endif
 
         @if(isset($attributes['v-error-message']))
