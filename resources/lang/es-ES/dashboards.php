@@ -3,9 +3,9 @@
 return [
 
     'error' => [
-        'not_user_dashboard'    => 'Error: You are not allowed to change this dashboard!',
-        'delete_last'           => 'Error: Can not delete the last dashboard. Please, create a new one first!',
-        'disable_last'          => 'Error: Can not disable the last dashboard. Please, create a new one first!',
+        'not_user_dashboard'    => 'Error: No tiene permiso para cambiar este panel!',
+        'delete_last'           => 'Error: No se puede eliminar el último tablero. ¡Por favor, crea uno nuevo primero!',
+        'disable_last'          => 'Error: No se puede desactivar el último tablero. ¡Por favor, crea uno nuevo primero!',
     ],
 
 ];
