@@ -60,7 +60,7 @@ class Revenue extends Notification
 
         // Attach the PDF file
         if ($this->attach_pdf) {
-            $message->attach($this->storeDocumentPdfAndGetPath($this->revenue), [
+            $message->attach($this->storeTransactionPdfAndGetPath($this->revenue), [
                 'mime' => 'application/pdf',
             ]);
         }
