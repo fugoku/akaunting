@@ -79,12 +79,10 @@ fabric.properties
 /vendor
 /.idea
 /.history
-/.vscode
 /.vagrant
 Homestead.json
 Homestead.yaml
 npm-debug.log
-.env
 robots.txt
 _ide_helper.php
 _ide_helper_models.php
@@ -95,3 +93,7 @@ modules/*
 !modules/.gitkeep
 .laravelstatsrc
 .DS_Store
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
